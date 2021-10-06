@@ -1,6 +1,8 @@
 package com.example.demo.domain;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 import javax.persistence.Entity;
@@ -28,6 +30,7 @@ public class Cidade implements Serializable{
 	@JoinColumn(name = "estado_id")
 	private Estado estado;
 
+	
 	public Cidade() {
 		
 	}
